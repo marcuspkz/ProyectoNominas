@@ -14,6 +14,7 @@ public class Fecha {
     
     public Fecha() {
         //si no se introduce fecha se fija la fecha actual por defecto
+    	//añadimos un comentario para modificar Fecha y compararlo
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd");
         this.dia = Integer.parseInt(formatter.format(date));
