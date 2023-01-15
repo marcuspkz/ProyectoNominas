@@ -29,9 +29,9 @@ public class ProyectoNominas {
         * por el usuario están en el rango de valores coherentes/que puede manejar
         * el programa*/
         while (op != 0) {
-            System.out.print("1- Listado empleados" + '\n' + "2- Modificación de datos" 
-                + '\n' + "3- Nómina" + '\n' + "4- Modificación del Salario Base" 
-                + '\n' + "0- Fin" + '\n' + "Opción: ");
+            System.out.print("1- Listado empleados" + '\n' + "2- Modificacion de datos" 
+                + '\n' + "3- Nomina" + '\n' + "4- Modificacion del Salario Base" 
+                + '\n' + "0- Fin" + '\n' + "Opcion: ");
             op = teclado.nextInt();
             System.out.print('\n');
             switch (op) {
